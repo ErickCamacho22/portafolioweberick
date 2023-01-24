@@ -1,0 +1,20 @@
+.contenedor {
+  width: 80%;
+  height: 730px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #1b242f;
+  margin-left: 175px;
+  margin-right: 175px;
+}
+
+h2 {
+  text-align: center;
+}
+
+@media (max-width: 910px) {
+  .contenedor {
+    margin-left: 160px;
+  }
+}

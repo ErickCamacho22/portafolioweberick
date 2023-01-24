@@ -1,0 +1,101 @@
+header {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.projectContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-items: center;
+  justify-content: flex-start;
+}
+
+.projectForm {
+  width: 400px;
+  display: block;
+  margin-left: 170px;
+  margin-right: 0;
+  height: auto;
+  background-color: #f5f5f5;
+  text-align: center;
+  box-shadow: 1px 1px 4px #1b242f;
+}
+
+.Regresar {
+  width: 300px;
+  margin-left: 210px;
+  font-size: 20px;
+  background-color: #1b242f;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: #04c2c9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font: bold;
+  color: #04c2c9;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.field {
+  width: 90%;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1b242f;
+  background: #f5f5f5;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.errosrMessage {
+  display: block;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font: bold;
+  color: red;
+}
+
+.selectImage {
+  width: 90%;
+  background-color: #1b242f;
+  color: #04c2c9;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.butonSave {
+  width: 100px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #04c2c9;
+  background-color: #1b242f;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.projectsEdit {
+  padding-left: 20px;
+}

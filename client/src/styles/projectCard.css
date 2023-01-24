@@ -1,0 +1,89 @@
+.ProjectCards2 {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.projectEdit2 {
+  width: 370px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  float: left;
+}
+
+.projectEdit2 h3 {
+  margin-top: 100px;
+}
+
+.card2 {
+  width: 370px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 6px;
+  margin: 0;
+  position: relative;
+}
+.card2 img {
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
+
+.description2 {
+  width: 370px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  color: #f5f5f5;
+  background: rgba(27, 36, 47, 0.5);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  text-align: center;
+}
+
+.description2:hover {
+  opacity: 1;
+}
+
+.verProyecto {
+  width: 200px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #04c2c9;
+  background-color: #1b242f;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media (min-width: 1515px) {
+  .projectEdit2 {
+    width: 450px;
+  }
+  .card2 {
+    width: 450px;
+  }
+  .description2 {
+    width: 450px;
+  }
+}
+
+@media (max-width: 1274px) {
+  .projectEdit2 {
+    width: 350px;
+  }
+  .card2 {
+    width: 350px;
+  }
+  .description2 {
+    width: 350px;
+  }
+}
+
+/* @media (max-width: 370px) */

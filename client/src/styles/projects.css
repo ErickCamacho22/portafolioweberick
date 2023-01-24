@@ -1,0 +1,23 @@
+.containerProjects {
+  margin-left: 165px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.editarP {
+  width: 300px;
+  font-size: 20px;
+  background-color: #1b242f;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.linkEditar {
+  text-decoration: none;
+  color: #04c2c9;
+  font-family: Arial, Helvetica, sans-serif;
+}

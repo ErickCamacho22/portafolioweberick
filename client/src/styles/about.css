@@ -1,0 +1,281 @@
+/* Start css Cards */
+
+h1 {
+  margin: 0;
+  padding: 20px;
+}
+
+.containerInfo {
+  padding-left: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  height: auto;
+  text-align: center;
+  color: #1b242f;
+}
+
+.cards {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardInfo {
+  float: left;
+  width: 205px;
+  height: 305px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px #1b242f;
+  background: #f5f5f5;
+  overflow: hidden;
+  margin: 30px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+.cardInfo:first-child {
+  margin-left: 100px;
+}
+
+.cardInfo:hover {
+  background: #1b242f;
+  color: #f5f5f5;
+}
+
+.cardInfo .icon {
+  color: #1b242f;
+  height: 100px;
+  width: 100px;
+  padding-top: 20px;
+  display: block;
+  line-height: 110px;
+  text-align: center;
+  margin: 0px auto;
+  transition: all 300ms;
+}
+
+.cardInfo:hover .icon {
+  animation: showIcon 300ms linear;
+  -webkit-animation: showIcon 300ms linear;
+  color: #04c2c9;
+}
+
+@keyframes showIcon {
+  from {
+    transform: translateY(-200%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.cardInfo .category {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  font-family: "TrebuchetMS";
+  color: #1b242f;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  transition: all 300ms;
+}
+
+.cardInfo:hover .category {
+  color: #f5f5f5;
+  animation: showCategory 400ms linear;
+}
+@keyframes showCategory {
+  from {
+    transform: translateY(-300%);
+    color: #1b242f;
+  }
+  to {
+    transform: translateY(0%);
+    color: #f5f5f5;
+  }
+}
+
+.cardInfo .description {
+  color: #1b242f;
+  font-size: 15px;
+  text-align: center;
+  transition: all 300ms;
+}
+
+.cardInfo:hover .description {
+  color: #f5f5f5;
+  animation: showDescription 400ms linear;
+}
+
+@keyframes showDescription {
+  from {
+    transform: translateX(-300%);
+    color: #1b242f;
+  }
+  to {
+    transform: translateX(0%);
+    color: #f5f5f5;
+  }
+}
+
+/* End css Cards */
+
+/* Start css Description */
+
+/*Imagen*/
+
+.containerDescription {
+  margin-bottom: 70px;
+  height: 100%;
+  width: 90%;
+  margin-left: 100px;
+}
+.color {
+  width: 360px;
+  height: 480px;
+  display: inline-flex;
+  box-shadow: 1px 1px 10px #1b242f;
+  border-radius: 5px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.color:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+}
+
+.descripcion {
+  text-align: center;
+  float: left;
+  width: 550px;
+  margin-top: 127px;
+  margin-right: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px #1b242f;
+  background: #f5f5f5;
+}
+
+/* End css Description */
+
+@media (min-width: 1367px) {
+  body {
+    align-items: center;
+  }
+  .cardInfo {
+    margin-left: 60px;
+    float: left;
+    width: 200px;
+    height: 300px;
+  }
+
+  .cardInfo .icon {
+    height: 100px;
+    width: 100px;
+  }
+
+  .cardInfo .category {
+    font-size: 35px;
+    margin: 0;
+  }
+
+  .cardInfo .description {
+    margin-top: 0;
+    font-size: 18px;
+    padding: 0 5px 0 5px;
+  }
+
+  .color {
+    width: 440px;
+    height: 560px;
+  }
+
+  .descripcion {
+    width: 565px;
+    margin: 20px;
+    margin-left: 3px;
+  }
+
+  .descripcion h1 {
+    font-size: 40px;
+  }
+
+  .descripcion p {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 1279px) {
+  .cardInfo {
+    margin-left: 100px;
+    float: left;
+    width: 250px;
+    height: 350px;
+  }
+
+  .cardInfo .icon {
+    height: 130px;
+    width: 130px;
+  }
+
+  .cardInfo .category {
+    font-size: 35px;
+  }
+
+  .cardInfo .description {
+    margin-top: 0;
+    font-size: 18px;
+    padding: 0 5px 0 5px;
+  }
+
+  .containerDescription {
+    margin-left: 0;
+  }
+
+  .descripcion {
+    margin-right: 15px;
+    margin-top: 75px;
+    float: left;
+    width: 390px;
+  }
+
+  .descripcion h1 {
+    font-size: 40px;
+  }
+
+  .descripcion p {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 370px) {
+  .containerInfo {
+    width: 100%;
+    padding-left: 30px;
+  }
+
+  .cardInfo {
+    width: 220px;
+  }
+  .color {
+    width: 220px;
+    height: 320px;
+    margin-left: 75px;
+  }
+
+  .descripcion {
+    width: 240px;
+    height: auto;
+    margin-left: 70px;
+  }
+}
