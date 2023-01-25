@@ -8,7 +8,7 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "nodemon server --exec babel-node --ignore client",
+    "dev": "nodemon index --exec babel-node --ignore client",
     "build": "npm run build --prefix client",
     "start": "node index"
   },
