@@ -11,9 +11,9 @@ import { fileURLToPath } from "url";
 const app = express();
 const __dirname = dirname(fileURLToPath(import.meta.url));
 createRoles();
+const whiteList = ["https://portafolioweberick-w5oa.vercel.app/"];
 
-app.use(cors({ origin: true, credentials: true }));
-// app.use(cors());
+app.use(cors({ origin: whiteList, credentials: true }));
 //middlewares
 app.use(express.json());
 app.use(
