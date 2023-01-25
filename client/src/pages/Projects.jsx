@@ -11,7 +11,13 @@ export function Projects() {
 
   if (posts.length === 0) return (
     <div>
-      <h1>There are no Posts</h1>
+      <NavBar />
+
+
+      <div className="containerProjects">
+        <h1>Projects </h1>
+        <h1>There are no Posts</h1>
+      </div>
     </div>
   )
 
