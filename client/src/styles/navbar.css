@@ -47,7 +47,7 @@
   transform: scale(1.2, 1.2);
 }
 
-@media (max-width: 370px) {
+@media (max-width: 400px) {
   .navBar {
     width: 100px;
     padding-left: 10px;
